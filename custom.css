@@ -1,0 +1,359 @@
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*----------------NAV - DIV 1 -----------------------------*/
+nav {
+	background-color: black;
+	height: 30px;
+	padding-top: 13px;
+}
+
+a {
+	text-decoration: none; /*Pour que tous les liens ne soient plus soulignés*/
+}
+
+#imgTop {
+	margin: auto 0 auto 20px;
+}
+
+#menu {
+	background-color: transparent;
+	color: white;
+	border: 0.1em solid grey;
+	border-radius: 5px;
+	float: right;
+	margin-right: 20px;
+	margin-top: auto;
+	cursor: pointer;
+}
+
+#containernav {
+	background-color: black;
+	color: white;
+	border: 0.1em solid grey;
+	border-right: none;
+	border-left: none;
+	display: none;
+	text-align: center;
+}
+
+.nav {
+	display: block;
+	color: white;
+	padding: 10px;
+	border-bottom: 0.1em solid grey;
+}
+
+#home {
+	display: block;
+	height: 100%;
+	background-image: url("images/hero-image.jpg");
+	background-position: left 8%; /*Pour que l'image soit placée dans le BG comme le modèle */
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-family: arial;
+	margin-top: 0;
+	padding-top: 20px;
+}
+
+#titleDiv1 {
+	font-size: 18px;
+	font-family: Arvo;
+	margin-bottom: 0;
+}
+#text {
+	font-size: 12px;
+	margin: 0 30px;
+	line-height: 17px;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+#learnMore {
+	width: auto;
+	margin-top: 20px;
+	padding: 10px;
+	color: white;
+	background-color: #d24c45;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#code {
+	width: 80px;
+	display: block;
+	margin: 30px auto;
+}
+/*------------DIV 2-----------------*/
+
+#who {
+	text-align: center;
+	height: 100%;
+}
+/*---------------------DIV 3---------------*/
+#imgAcademy {
+	width: 130px;
+	padding-top: 40px;
+}
+h1 {
+	color: rgb(231,76,60);
+	font-family: arvo;
+	font-size: 25px;
+	font-weight: lighter;
+	margin-top: 10px;
+	text-align: center;
+}
+hr {
+	width: 15%;
+	height: 1px;
+	background-color: rgb(231,76,60);
+	border: none;
+	margin-bottom: 0;
+}
+
+.textdiv {
+	color: black;
+	font-family: arial;
+	font-weight: lighter;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 0;
+	line-height: 25px;
+}
+
+#massive {
+	color: rgb(231,76,60);
+}
+
+#get-involved {
+	background-color: #F5F5F5;
+	height: 100%;
+	padding-bottom: 50px;
+}
+#h2 {
+	padding-top: 30px;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: rgb(231,76,60);
+	font-family: arvo;
+	font-size: 24px;
+	font-weight: lighter;
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+.icon {
+	display: block;
+  	text-align: center;
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	padding-top: auto;
+	padding-bottom: auto;
+	margin: 0;
+	top: 50%;
+  	left: 50%;
+	transform: translate(-50%, -50%);  /*vertically center */
+}
+.iconround {
+	display: block;
+	position: relative;
+	background-color: #242423;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+	margin-bottom: 10px;
+
+}
+.buttonInvolve {
+	display: block;
+	padding: 8px 12px;
+	background-color: white;
+	color: rgb(231,76,60);
+	font-size: 14px;
+	border: 0.1em solid #dbdbdc;
+	border-radius: 5px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.arrows {
+	font-size: 8px;
+}
+/*---------------------FOOTER---------------*/
+footer {
+	height: 100%;
+	background-color: red;
+}
+#picBottom {
+	margin: 90px 0 30px 20px;
+
+}
+/*---------------------LAST DIV ---------------*/
+#back-to-top {
+	position: fixed;
+	bottom: 50px;
+	font-size: 40px;
+	display: flex;
+	margin-left: 90%;
+}
+
+#back-to-top a {
+	color: #242423;
+}
+
+/*---------------------MEDIA QUERIES ---------------------------------------------------*/
+
+/*--------------- SCREEN FROM 767 TO 991 ---------------*/
+@media (min-width: 767px){
+	
+	#menu {
+		display: none;
+	}
+
+	#containernav {
+		display: inline-flex;
+		text-align: center;
+		float: right;
+		border: none;
+		margin-top: -40px;
+		background: none; 
+		margin-right: 100px;
+	}
+
+	.nav {
+		border: none;
+		color: #909090;
+		margin-top: 0;
+		font-size: 12px;
+		font-family: Arvo;
+	}
+	.nav:hover {
+		color: white;
+	}
+
+	#imgTop {
+		margin: auto 0 auto 100px;
+	}
+	#titleDiv1 {
+		padding-top: 40px;
+		font-size: 30px;
+		font-family: Arvo;
+		
+	}
+	#text {
+		font-size: 16px;
+		margin: 0 208px;
+		line-height: 26px;
+	}
+
+	#learnMore {
+		font-size: 30px;
+
+	}
+
+	#code {
+		width: 80px;
+		display: block;
+		margin: 50px auto;
+	}
+
+/*------------DIV 3-----------------*/
+	#imgAcademy {
+		width: 100px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+
+	.textdiv {
+		margin-right: 180px;
+		margin-left: 180px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.iconround {
+		width: 90px;
+		height: 90px;
+		margin-top: 40px;
+	}
+	.buttonInvolve {
+		font-size: 10px;
+	}
+	/*------------FOOTER-----------*/
+	#picBottom {
+		margin: 90px 0 30px 180px;
+		width: 300px;
+
+	}
+/*--------------- SCREEN FROM 991 TO 1199 ---------------*/
+
+@media (min-width: 991px){
+
+/*alignement des éléments dans "Get Involved" : */
+	article {
+		display: inline-flex;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+
+	.textdiv {
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+/*Autres détails*/
+
+	#imgAcademy {
+		width: 130px;
+	}
+
+	#textWho {
+		margin: 0 180px 20px 180px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.iconround {
+		width: 90px;
+		height: 90px;
+		margin-top: 30px;
+	}
+	.buttonInvolve {
+		font-size: 12px;
+	}
+}
+/*----------------- SCREEN FROM 1199 --------------------*/
+
+@media (min-width: 1199px){
+	
+	#titleDiv1 {
+		font-size: 46px;
+		margin-bottom: 20px;
+	}
+
+	#text {
+		font-size: 20px;
+		line-height: 26px;
+		margin-left: 13%;
+		margin-right: 13%;
+	}
+}

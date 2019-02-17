@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>One Million Lines</title>
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo"> <!-- Load google font Arvo -->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css"> <!-- Load font Awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> <!-- Link from font Awesome to display items -->
+    
+    <script type="text/javascript" src="custom.js"></script> <!-- Link to JS -->
+    <script src="jquery-3.3.1.min.js"></script> <!-- load JQuery from folder -->
+    <link rel="stylesheet" type="text/css" href="custom.css"> <!-- Link to CSS -->
+
+  </head>
+
+<!-- -------------------------------------------------------BODY-------------------------------------------------------------- -->
+  <body>
+      
+    <nav>
+      <img id="imgTop" src="images/top-logo.png">
+      <button id="menu" onclick="openNav()"><span class="far fa-bars"></span></button>
+    </nav>
+<!--     menu déroulant résolution mobile ------->    
+<div id="containernav">
+        <a href="#who" class="nav">WHO WE ARE</a>
+        <a href="#get-involved" class="nav">GET INVOLVED</a>
+      </div>
+<!-- ---------- DIV 1------------------------ -->
+    <div id="home">
+      <p id="titleDiv1">Our goal is to inspire <br> Tallahassee to write 1,000,000 <br> lines of code_</p>
+      <p id="text">All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org.</strong> Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community if taking the challenge and our goal is to write 1,000,000 lines of code_</p>
+      <button id="learnMore">Learn more <span class="fas fa-angle-double-right arrows"></span></button>
+      <img id="code" src="images/code.png"> 
+    </div>
+<!-- ---------- DIV 2 ------------------------ -->
+    <div id="who">
+      <img id="imgAcademy" src="images/academy-brand-med.png">
+      <h1>WHO WE ARE</h1>
+      <hr>
+      <p id="textWho" class="textdiv">We are <span id="massive">MASSIVE Academy</span>. We aim to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
+    </div>
+<!-- ---------- DIV 3------------------------ -->
+    <div id="get-involved">
+      <h1 id="h2">GET INVOLVED</h1>
+      <hr>
+      <article> <!-- Article contenant 3 divs chacune with (icon/text/button) pour pouvoir aligner ces divs et avoir display +1199px -->
+        <div> 
+            <div class="iconround"><span class="fas fa-user icon"></span></div>
+            <h2>STUDENTS</h2>
+            <p class="textdiv">Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
+            <button class="buttonInvolve">Start Learning <span class="fas fa-angle-double-right arrows"></span></button>
+        </div>
+        <div>
+            <div class="iconround"><span class="fas fa-pencil-alt icon"></span></div>
+            <h2>EDUCATORS</h2>
+            <p class="textdiv">Want to bring this initiative to your school or institution? Awesome! Click the button below and we'll make it happen.</p>
+            <button class="buttonInvolve">Join the Initiative <span class="fas fa-angle-double-right arrows"></span></button>
+        </div>
+        <div>
+            <div class="iconround"><span class="far fa-money-bill-alt icon"></span></div>
+            <h2>SPONSORS</h2>
+            <p class="textdiv">We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</p>
+            <button class="buttonInvolve">Give Support <span class="fas fa-angle-double-right arrows"></span></button>
+         </div>
+      </article>
+    </div><!-- /#get-involved -->
+<!-- ------------------FOOTER------------------------ -->
+    <footer>
+      <img id="picBottom" src="images/one-million-bottom-brand.png">
+    </footer>
+<!-- ---------- BACK TO TOP ARROW------------------------ -->
+    <div id="back-to-top">
+      <a href="#top" class="fa fa-chevron-circle-up"></a>
+    </div><!-- /#back-to-top -->
+
+  </body>
+</html>
